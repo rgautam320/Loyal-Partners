@@ -1,0 +1,279 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    padding-top: 30px;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+.header img
+{
+    width: 170px;
+    height: 170px;
+    float: left;
+}
+.login_btn
+{
+    width: 120px;
+    padding: 8px 2px;
+    outline: none !important;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 50px;
+    color: #fff;
+    float: right;
+    background-image: linear-gradient(#195591, #9d6ac4);
+}
+.header h1
+{
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p
+{
+    margin: 18px 0;
+}
+.input-group
+{
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 50px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control
+{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+}
+.btn
+{
+    width: 100%;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;  
+}
+
+/*Featured Destination*/
+.features
+{
+    padding: 100px 0;
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.feature-img img
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+.price
+{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+.feature-img
+{
+    position: relative;
+}
+.rating
+{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.features .fa
+{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details
+{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4
+{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa
+{
+    margin-right: 5px;
+}
+.feature-box
+{
+    box-shadow: 0 0 10px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+.gallery
+{
+    padding: 100px 0;
+    background:#e4f5e8; 
+}
+.gallery-box img
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box img:hover
+{
+    transform: scale(1.1);
+}
+.gallery-box h4
+{
+    width: 100%;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.gallery-box
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.banner
+{
+    height: 80%;
+    background-image: url(../images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+.banner-highlights
+{
+    padding: 70px 0;
+    background: rgba(0,0,0,.7);
+    text-align: center;
+    color: white;
+}
+.booking-btn
+{
+    width: 80%;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    background-image: linear-gradient(#DA22FF, #9733EE);
+}
+.users-feedback
+{
+    padding: 20px;
+    text-align: justify;
+}
+.users-review
+{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0, 100, 0.2);
+    padding-bottom: 50px;
+}
+.users-review p
+{
+    padding: 50px 10px 10px 10px;
+}
+.users-review h5
+{
+    text-align: center;
+}
+.users-feedback img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+.users-review p::before
+{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 45%;
+    top: -20px; 
+}
+.footer
+{
+    padding: 60px 20px 20px;
+    background-image: linear-gradient(#2d557d, #9610fd);
+    color: white;
+}
+.footer-logo
+{
+    width: 80%;
+    height: 80px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.foooter h3
+{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.footer p
+{
+    cursor: pointer;
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background:#efefef; 
+}
+.footer .copyright
+{
+    text-align: center;
+    font-size: 16px;
+}
